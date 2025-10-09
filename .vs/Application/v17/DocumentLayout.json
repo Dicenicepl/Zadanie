@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dicenice\\source\\repos\\Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|c:\\users\\dicenice\\source\\repos\\application\\maui\\apicalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|solutionrelative:maui\\apicalls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF393B3-DCBB-4254-B72C-6D35499DE546}|Application\\Application.csproj|c:\\users\\dicenice\\source\\repos\\application\\application\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF393B3-DCBB-4254-B72C-6D35499DE546}|Application\\Application.csproj|solutionrelative:application\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEF393B3-DCBB-4254-B72C-6D35499DE546}|Application\\Application.csproj|c:\\users\\dicenice\\source\\repos\\application\\application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEF393B3-DCBB-4254-B72C-6D35499DE546}|Application\\Application.csproj|solutionrelative:application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|c:\\users\\dicenice\\source\\repos\\application\\maui\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|solutionrelative:maui\\views\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|c:\\users\\dicenice\\source\\repos\\application\\maui\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{91440E7C-6691-4D1F-91EE-FE1ADE106FB8}|Maui\\Maui.csproj|solutionrelative:maui\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Dicenice\\source\\repos\\Application\\Application\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\Dicenice\\source\\repos\\Application\\Application\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Application\\Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:57:39.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\Views\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Maui\\Views\\Register.xaml.cs",
+              "ToolTip": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\Views\\Register.xaml.cs",
+              "RelativeToolTip": "Maui\\Views\\Register.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:57:19.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiCalls.cs",
+              "DocumentMoniker": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\ApiCalls.cs",
+              "RelativeDocumentMoniker": "Maui\\ApiCalls.cs",
+              "ToolTip": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\ApiCalls.cs",
+              "RelativeToolTip": "Maui\\ApiCalls.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:56:41.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dicenice\\source\\repos\\Application\\Application\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Application\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dicenice\\source\\repos\\Application\\Application\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Application\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAvwEwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T18:47:20.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Maui\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\Dicenice\\source\\repos\\Application\\Maui\\Views\\Login.xaml",
+              "RelativeToolTip": "Maui\\Views\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-09T18:47:46.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
