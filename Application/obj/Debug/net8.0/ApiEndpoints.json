@@ -8,7 +8,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "loginUser",
+        "Name": "dto",
         "Type": "Application.Models.DTO.LoginDto",
         "IsRequired": true
       }
@@ -34,7 +34,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "registerUser",
+        "Name": "dto",
         "Type": "Application.Models.DTO.RegisterDto",
         "IsRequired": true
       }

@@ -1,4 +1,6 @@
-﻿namespace Maui
+﻿using Maui.Views;
+
+namespace Maui
 {
     public partial class AppShell : Shell
     {

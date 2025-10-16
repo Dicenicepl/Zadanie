@@ -8,15 +8,14 @@ namespace Application.Services
 {
     public class JwtTokenService
     {
-        private readonly IConfiguration _config;
-
-        public JwtTokenService(IConfiguration config)
+        private readonly IConfiguration _configuration;
+        public JwtTokenService(IConfiguration configuration)
         {
-            _config = config;
+            _configuration = configuration;
         }
         public string GenerateToken(User user)
         {
-            var jwt = _config.GetSection("Jwt");
+            var jwt = _configuration.GetSection("Jwt");
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt["Key"]));
 
             var claims = new[]
@@ -35,4 +34,15 @@ namespace Application.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
+        //public static TokenValidationParameters GetValidationParameters(IConfiguration config)
+        //{
+        //    return new TokenValidationParameters
+        //    {
+        //        ValidateIssuer = false,
+        //        ValidateAudience = false,
+        //        ValidateLifetime = true,
+        //        ValidateIssuerSigningKey = true,
+        //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!))
+        //    };
+        //}
 }
