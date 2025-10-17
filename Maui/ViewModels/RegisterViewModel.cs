@@ -75,9 +75,8 @@ namespace Maui.ViewModels
                 }
                 else
                 {
-                    //Zamienić to aby wyciągało błędy z tablicy Errors[]
-                    var errorMsg = result.Message ?? "Wystąpił błąd";
-                    await Shell.Current.DisplayAlert("Błąd", errorMsg, "OK");
+                    string formatted = string.Join("\n", result.Errors.Select(e => $"{e.Key}: {string.Join(", ", e.Value)}"));
+                    await Shell.Current.DisplayAlert("Błąd", formatted, "OK");
                 }
             }
             catch (Exception ex)

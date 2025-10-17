@@ -37,6 +37,7 @@ namespace Maui.ViewModels
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
                 await Shell.Current.DisplayAlert("Błąd", "Niepoprawne dane", "OK");
+                return;
             }
             try
             {
@@ -54,7 +55,8 @@ namespace Maui.ViewModels
                 }
                 else
                 {
-                    await Shell.Current.DisplayAlert("Error", "Wystąpił błąd", "OK");
+                    string formatted = string.Join("\n", result.Errors.Select(e => $"{e.Key}: {string.Join(", ", e.Value)}"));
+                    await Shell.Current.DisplayAlert("Error", formatted, "OK");
                 }
 
             }
